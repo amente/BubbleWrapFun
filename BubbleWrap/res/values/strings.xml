@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bubble Wrap</string> 
+    
+    <!--  Menu Strings -->
+    <string name="new_game">Reset</string>  
+   
+    
+     <string name="size_menu">Wrap Size</string> 
+    
+    <string name="large_wrap">Large</string>  
+    <string name="medium_wrap">Medium</string> 
+    <string name="small_wrap">Small</string> 
+    
+    <!-- End Menu Strings -->
+    
+    <string name="done_text">Done!</string>
+    
+    <string name="popped_text">Popped</string>
+    <string name="popped_number">0</string>
+    <string name="unpopped_text">out of</string>
+    <string name="unpopped_number">0</string>
+    <string name="title_activity_display_message">My Message</string>
+    
+
+</resources>

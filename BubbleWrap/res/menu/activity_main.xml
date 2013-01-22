@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_game"        
+        
+        android:title="@string/new_game"/>
+    
+    
+    <item
+        android:id="@+id/size_menu"        
+        
+        android:title="@string/size_menu">
+        
+    <menu>
+            <item android:id="@+id/small_wrap"
+                  android:title="@string/small_wrap" />
+            <item android:id="@+id/medium_wrap"
+                  android:title="@string/medium_wrap" />
+            <item android:id="@+id/large_wrap"
+                  android:title="@string/large_wrap" />
+   </menu>
+    </item>
+    
+
+</menu>
