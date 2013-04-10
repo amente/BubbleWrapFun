@@ -5,36 +5,9 @@
     android:layout_height="match_parent"    
     >
 
-<!--         <TextView -->
-<!--             android:id="@+id/popped_text" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:layout_alignParentLeft="true" -->
-<!--             android:layout_alignParentTop="true" -->
-<!--             android:text="@string/popped_text" /> -->
 
-<!--         <TextView -->
-<!--             xmlns:android="http://schemas.android.com/apk/res/android" -->
-<!--             android:id="@+id/un_popped_text" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:layout_alignParentTop="true" -->
-<!--             android:layout_marginLeft="16dp" -->
-<!--             android:layout_toRightOf="@+id/poppedNumber" -->
-<!--             android:text="@string/unpopped_text" /> -->
 
-<!--         <TextView -->
-<!--             xmlns:android="http://schemas.android.com/apk/res/android" -->
-<!--             android:id="@+id/unPoppedNumber" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:layout_alignParentTop="true" -->
-<!--             android:layout_marginLeft="15dp" -->
-<!--             android:layout_toRightOf="@+id/un_popped_text" -->
-<!--             android:text="@string/unpopped_number" /> -->
-
-        <GridView
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <GridView  xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/gridview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,8 +21,7 @@
             android:verticalSpacing="0dp" >
         </GridView>
 
-        <TextView
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <TextView  xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/poppedNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
